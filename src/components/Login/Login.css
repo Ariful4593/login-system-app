@@ -1,0 +1,56 @@
+.form-field {
+    margin: 50px;
+    border: 2px solid #c4c2c2;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px 10px 20px 10px;
+  }
+  form p {
+    margin: 10px;
+  }
+  input[type='text'],
+  [type='email'],
+  [type='password'] {
+    width: 320px;
+    outline: none;
+    padding: 6px 8px;
+    border-radius: 3px;
+    border: 1px solid #ededed;
+  }
+  input,
+  select,
+  textarea {
+    background-color: none !important;
+  }
+  input[type='submit'] {
+    width: 320px;
+    padding: 6px 16px;
+    border-radius: 3px;
+    border: none;
+    border-bottom: 3px solid white;
+    font-size: bold;
+    background-color: #275A53;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+  }
+  .sign-btn {
+    background-color: transparent;
+    width: 320px;
+    padding: 6px 16px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    outline: none;
+  }
+  .divider {
+    border: 1px solid gray;
+    display: inline-block;
+    width: 150px;
+  }
+  .media-icon{
+      height: 30px;
+      float: left;
+  }
+  .login-qstn{
+      font-size: 12px;
+  }
